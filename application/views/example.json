@@ -1,0 +1,608 @@
+{
+    "aggregators": {},
+    "offset": 0,
+    "results": [{
+        "context": {
+            "signaled": null
+        },
+        "_meta": {
+            "ranker": {
+                "@type": "and",
+                "rank": 1.0,
+                "score": null,
+                "and": [{
+                    "@type": "scorer",
+                    "rank": 1.0,
+                    "scorer": "name",
+                    "score": null,
+                    "input": {
+                        "criteria": {
+                            "names": ["john harold belalcazar lozano"]
+                        },
+                        "person": {
+                            "name": "John Harold Belalcazar Lozano"
+                        }
+                    }
+                }, {
+                    "@type": "scorer",
+                    "rank": 46.0,
+                    "scorer": "weight",
+                    "score": null,
+                    "input": {
+                        "criteria": null,
+                        "person": {
+                            "weight": 0.0122
+                        }
+                    }
+                }, {
+                    "@type": "scorer",
+                    "rank": 805.0,
+                    "scorer": "completion",
+                    "score": null,
+                    "input": {
+                        "criteria": null,
+                        "person": {
+                            "completion": 0.5556
+                        }
+                    }
+                }, {
+                    "@type": "scorer",
+                    "rank": 1688.0,
+                    "scorer": "grammar",
+                    "score": null,
+                    "input": {
+                        "criteria": null,
+                        "person": {
+                            "grammar": 0.80519
+                        }
+                    }
+                }]
+            },
+            "filter": {
+                "@type": "concrete",
+                "pass": true,
+                "id": "name",
+                "input": {
+                    "criteria": {
+                        "name": "john harold belalcazar lozano"
+                    },
+                    "person": {
+                        "name": "John Harold Belalcazar Lozano"
+                    }
+                }
+            }
+        },
+        "compensations": {
+            "employee": {
+                "amount": 80000.0,
+                "currency": "USD$",
+                "periodicity": "yearly"
+            }
+        },
+        "locationName": "Bogota D.C., Colombia",
+        "name": "John Harold Belalcazar Lozano",
+        "openTo": ["full-time-employment", "part-time-employment"],
+        "picture": "https://starrgate.s3.amazonaws.com:443/users/fef56e8f1e2d8724eec0aec2c92f3c20482e113d/profile_nShQpLa.jpg",
+        "professionalHeadline": "Director Asociado de Desarrollo de Software",
+        "remoter": true,
+        "skills": [{
+            "name": "Mobile Development",
+            "weight": 0.0
+        }, {
+            "name": "Mobile",
+            "weight": 0.0
+        }, {
+            "name": "Visual Studio",
+            "weight": 0.0
+        }, {
+            "name": "Oracle PL / SQL",
+            "weight": 0.0
+        }, {
+            "name": "oracle pl",
+            "weight": 0.0
+        }, {
+            "name": "MVC",
+            "weight": 0.0
+        }, {
+            "name": "SQL Server 2005 y 2008",
+            "weight": 0.0
+        }, {
+            "name": "jQuery",
+            "weight": 0.0
+        }, {
+            "name": "ASPX",
+            "weight": 0.0
+        }, {
+            "name": "VB",
+            "weight": 0.0
+        }, {
+            "name": "PHP VB.net ASPX Jquery",
+            "weight": 0.0
+        }, {
+            "name": "Algorithms",
+            "weight": 0.0
+        }, {
+            "name": "Writing",
+            "weight": 0.0
+        }, {
+            "name": "Robotics",
+            "weight": 0.0
+        }, {
+            "name": "AI",
+            "weight": 0.0
+        }, {
+            "name": "C# 4.0",
+            "weight": 0.0
+        }, {
+            "name": "Escritura de ficción",
+            "weight": 0.0
+        }, {
+            "name": "Ciencia ficción",
+            "weight": 0.0
+        }, {
+            "name": "Escritura No Ficción",
+            "weight": 0.0
+        }, {
+            "name": "Oracle",
+            "weight": 0.0
+        }, {
+            "name": "RPG",
+            "weight": 0.0
+        }, {
+            "name": "Desarrollo web",
+            "weight": 0.0
+        }, {
+            "name": "Web Development",
+            "weight": 0.0
+        }, {
+            "name": "Golang",
+            "weight": 0.0
+        }, {
+            "name": "Pipeline Efficiency",
+            "weight": 0.0
+        }, {
+            "name": "Reliability Improvement",
+            "weight": 0.0
+        }, {
+            "name": "Analysis",
+            "weight": 0.0
+        }, {
+            "name": "Production Efficiencies",
+            "weight": 0.0
+        }, {
+            "name": "Analytics",
+            "weight": 0.0
+        }, {
+            "name": "Efficiency",
+            "weight": 0.0
+        }, {
+            "name": "Data analysis",
+            "weight": 0.0
+        }, {
+            "name": "Book Writing",
+            "weight": 0.0
+        }, {
+            "name": "Inventory",
+            "weight": 0.0
+        }, {
+            "name": "Quality management",
+            "weight": 0.0
+        }, {
+            "name": "JSON",
+            "weight": 0.0
+        }, {
+            "name": "XML",
+            "weight": 0.0
+        }, {
+            "name": "Web API",
+            "weight": 0.0
+        }, {
+            "name": "Customer Service",
+            "weight": 0.0
+        }, {
+            "name": "SQL",
+            "weight": 0.0
+        }, {
+            "name": "C #",
+            "weight": 0.0
+        }, {
+            "name": "Leadership",
+            "weight": 0.0
+        }, {
+            "name": "Software Development",
+            "weight": 0.0041
+        }, {
+            "name": "Project Management",
+            "weight": 0.0
+        }, {
+            "name": ".NET",
+            "weight": 0.0
+        }, {
+            "name": "PHP",
+            "weight": 0.0041
+        }, {
+            "name": "Javascript",
+            "weight": 0.0041
+        }],
+        "subjectId": "129712",
+        "username": "johnharold",
+        "verified": true,
+        "weight": 0.0122
+    }, {
+        "context": {
+            "signaled": null
+        },
+        "_meta": {
+            "ranker": {
+                "@type": "and",
+                "rank": 2.0,
+                "score": null,
+                "and": [{
+                    "@type": "scorer",
+                    "rank": 2.0,
+                    "scorer": "name",
+                    "score": null,
+                    "input": {
+                        "criteria": {
+                            "names": ["john harold belalcazar lozano"]
+                        },
+                        "person": {
+                            "name": "Harold Lozano"
+                        }
+                    }
+                }, {
+                    "@type": "scorer",
+                    "rank": 47.0,
+                    "scorer": "weight",
+                    "score": null,
+                    "input": {
+                        "criteria": null,
+                        "person": {
+                            "weight": 0.0
+                        }
+                    }
+                }, {
+                    "@type": "scorer",
+                    "rank": 2420.0,
+                    "scorer": "completion",
+                    "score": null,
+                    "input": {
+                        "criteria": null,
+                        "person": {
+                            "completion": 0.1538
+                        }
+                    }
+                }, {
+                    "@type": "scorer",
+                    "rank": 1.0,
+                    "scorer": "grammar",
+                    "score": null,
+                    "input": {
+                        "criteria": null,
+                        "person": {
+                            "grammar": 1.0
+                        }
+                    }
+                }]
+            },
+            "filter": {
+                "@type": "concrete",
+                "pass": true,
+                "id": "name",
+                "input": {
+                    "criteria": {
+                        "name": "john harold belalcazar lozano"
+                    },
+                    "person": {
+                        "name": "Harold Lozano"
+                    }
+                }
+            }
+        },
+        "compensations": {},
+        "locationName": "Bogota D.C., Colombia",
+        "name": "Harold Lozano",
+        "openTo": [],
+        "picture": null,
+        "professionalHeadline": "Entrepreneur",
+        "remoter": true,
+        "skills": [],
+        "subjectId": "173425",
+        "username": "hlozanoh555",
+        "verified": false,
+        "weight": 0.0
+    }, {
+        "context": {
+            "signaled": null
+        },
+        "_meta": {
+            "ranker": {
+                "@type": "and",
+                "rank": 3.0,
+                "score": null,
+                "and": [{
+                    "@type": "scorer",
+                    "rank": 3.0,
+                    "scorer": "name",
+                    "score": null,
+                    "input": {
+                        "criteria": {
+                            "names": ["john harold belalcazar lozano"]
+                        },
+                        "person": {
+                            "name": "John Harold Ramirez Molina"
+                        }
+                    }
+                }, {
+                    "@type": "scorer",
+                    "rank": 47.0,
+                    "scorer": "weight",
+                    "score": null,
+                    "input": {
+                        "criteria": null,
+                        "person": {
+                            "weight": 0.0
+                        }
+                    }
+                }, {
+                    "@type": "scorer",
+                    "rank": 1113.0,
+                    "scorer": "completion",
+                    "score": null,
+                    "input": {
+                        "criteria": null,
+                        "person": {
+                            "completion": 0.3846
+                        }
+                    }
+                }, {
+                    "@type": "scorer",
+                    "rank": 1.0,
+                    "scorer": "grammar",
+                    "score": null,
+                    "input": {
+                        "criteria": null,
+                        "person": {
+                            "grammar": 1.0
+                        }
+                    }
+                }]
+            },
+            "filter": {
+                "@type": "concrete",
+                "pass": true,
+                "id": "name",
+                "input": {
+                    "criteria": {
+                        "name": "john harold belalcazar lozano"
+                    },
+                    "person": {
+                        "name": "John Harold Ramirez Molina"
+                    }
+                }
+            }
+        },
+        "compensations": {
+            "freelancer": {
+                "amount": 1000.0,
+                "currency": "USD$",
+                "periodicity": "monthly"
+            },
+            "intern": {
+                "amount": 1000.0,
+                "currency": "USD$",
+                "periodicity": "hourly"
+            },
+            "employee": {
+                "amount": 1000.0,
+                "currency": "USD$",
+                "periodicity": "monthly"
+            }
+        },
+        "locationName": "Departamento de Risaralda, Colombia",
+        "name": "John Harold Ramirez Molina",
+        "openTo": ["advising", "freelance-gigs", "internships", "full-time-employment", "part-time-employment", "mentoring"],
+        "picture": "https://starrgate.s3.amazonaws.com:443/users/f6d3e6a06f7deae0e72880d348b736db65cbef70/profile_wmKumm0.jpg",
+        "professionalHeadline": "Profesional Mercadeo y Publicidad",
+        "remoter": true,
+        "skills": [],
+        "subjectId": "46860",
+        "username": "johnharoldramirezmolina",
+        "verified": false,
+        "weight": 0.0
+    }, {
+        "context": {
+            "signaled": null
+        },
+        "_meta": {
+            "ranker": {
+                "@type": "and",
+                "rank": 4.0,
+                "score": null,
+                "and": [{
+                    "@type": "scorer",
+                    "rank": 3.0,
+                    "scorer": "name",
+                    "score": null,
+                    "input": {
+                        "criteria": {
+                            "names": ["john harold belalcazar lozano"]
+                        },
+                        "person": {
+                            "name": "JOHN HAROLD MONTOYA VARGAS"
+                        }
+                    }
+                }, {
+                    "@type": "scorer",
+                    "rank": 47.0,
+                    "scorer": "weight",
+                    "score": null,
+                    "input": {
+                        "criteria": null,
+                        "person": {
+                            "weight": 0.0
+                        }
+                    }
+                }, {
+                    "@type": "scorer",
+                    "rank": 431.0,
+                    "scorer": "completion",
+                    "score": null,
+                    "input": {
+                        "criteria": null,
+                        "person": {
+                            "completion": 0.7692
+                        }
+                    }
+                }, {
+                    "@type": "scorer",
+                    "rank": 1774.0,
+                    "scorer": "grammar",
+                    "score": null,
+                    "input": {
+                        "criteria": null,
+                        "person": {
+                            "grammar": 0.75
+                        }
+                    }
+                }]
+            },
+            "filter": {
+                "@type": "concrete",
+                "pass": true,
+                "id": "name",
+                "input": {
+                    "criteria": {
+                        "name": "john harold belalcazar lozano"
+                    },
+                    "person": {
+                        "name": "JOHN HAROLD MONTOYA VARGAS"
+                    }
+                }
+            }
+        },
+        "compensations": {},
+        "locationName": "Mitú, Vaupés, Colombia",
+        "name": "JOHN HAROLD MONTOYA VARGAS",
+        "openTo": ["advising", "freelance-gigs", "internships", "mentoring"],
+        "picture": null,
+        "professionalHeadline": "OBTANTE A ABOGADO",
+        "remoter": true,
+        "skills": [{
+            "name": "Resistencia",
+            "weight": 0.0
+        }, {
+            "name": "Honestidad",
+            "weight": 0.0
+        }, {
+            "name": "Trabajo en equipo",
+            "weight": 0.0
+        }],
+        "subjectId": "728106",
+        "username": "haroldmv13",
+        "verified": false,
+        "weight": 0.0
+    }, {
+        "context": {
+            "signaled": null
+        },
+        "_meta": {
+            "ranker": {
+                "@type": "and",
+                "rank": 5.0,
+                "score": null,
+                "and": [{
+                    "@type": "scorer",
+                    "rank": 3.0,
+                    "scorer": "name",
+                    "score": null,
+                    "input": {
+                        "criteria": {
+                            "names": ["john harold belalcazar lozano"]
+                        },
+                        "person": {
+                            "name": "John Jairo Godoy Lozano"
+                        }
+                    }
+                }, {
+                    "@type": "scorer",
+                    "rank": 47.0,
+                    "scorer": "weight",
+                    "score": null,
+                    "input": {
+                        "criteria": null,
+                        "person": {
+                            "weight": 0.0
+                        }
+                    }
+                }, {
+                    "@type": "scorer",
+                    "rank": 431.0,
+                    "scorer": "completion",
+                    "score": null,
+                    "input": {
+                        "criteria": null,
+                        "person": {
+                            "completion": 0.7692
+                        }
+                    }
+                }, {
+                    "@type": "scorer",
+                    "rank": 2225.0,
+                    "scorer": "grammar",
+                    "score": null,
+                    "input": {
+                        "criteria": null,
+                        "person": {
+                            "grammar": 0.58333
+                        }
+                    }
+                }]
+            },
+            "filter": {
+                "@type": "concrete",
+                "pass": true,
+                "id": "name",
+                "input": {
+                    "criteria": {
+                        "name": "john harold belalcazar lozano"
+                    },
+                    "person": {
+                        "name": "John Jairo Godoy Lozano"
+                    }
+                }
+            }
+        },
+        "compensations": {
+            "freelancer": {
+                "amount": 400.0,
+                "currency": "USD$",
+                "periodicity": "monthly"
+            },
+            "employee": {
+                "amount": 400.0,
+                "currency": "USD$",
+                "periodicity": "monthly"
+            }
+        },
+        "locationName": "Funza, Cundinamarca, Colombia",
+        "name": "John Jairo Godoy Lozano",
+        "openTo": ["freelance-gigs", "full-time-employment", "part-time-employment"],
+        "picture": null,
+        "professionalHeadline": "sin titulo",
+        "remoter": true,
+        "skills": [{
+            "name": "1010 datos",
+            "weight": 0.0
+        }, {
+            "name": "MAS",
+            "weight": 0.0
+        }],
+        "subjectId": "145929",
+        "username": "johnlozano",
+        "verified": false,
+        "weight": 0.0
+    }],
+    "size": 5,
+    "total": 3529
+}
