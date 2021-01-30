@@ -86,25 +86,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 		<form action="" method="POST">
 		<div class="form-check form-check-inline">
-			<input class="form-check-input" type="radio" name="flexsearch" id="name" value="name" checked>
+			<input class="form-check-input" type="radio" name="flexsearch" id="name" value="name" <?php echo $this->input->post("flexsearch")=="opor" ? "" : "checked" ; ?>>
 			<label class="form-check-label" for="name">
 				Names 
 			</label>
 		</div>
 		<div class="form-check form-check-inline">
-			<input class="form-check-input" type="radio" name="flexsearch" id="oportunity" value="opor" >
+			<input class="form-check-input" type="radio" name="flexsearch" id="oportunity" value="opor" <?php echo $this->input->post("flexsearch")=="opor" ? "checked" : "" ; ?>>
 			<label class="form-check-label" for="oportunity">
 				Opportunities
 			</label>
 		</div>		
 		<br>
 		<div class="form-group">
-    	  	<input type="text" class="form-control" id="txtuser" name="txtuser" value="" placeholder="Text to search">
+    	  	<input type="text" class="form-control" id="txtuser" name="txtuser" value="<?php echo $this->input->post('txtuser') ?>" placeholder="Text to search">
 	    </div>
 
 		<button type="submit" id="btgetuser" name="btgetuser" class="btn btn-primary btn-lg" title="Search" value="btgetuser" >Search</button>
 		<a class="btn btn-primary btn-lg" href="<?= site_url("Welcome") ?>">Return</button></a>
-		<button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#ModalBIO">
+		<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#ModalBIO">
 			About..
 		</button>		
 		</form>
@@ -175,8 +175,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<?php echo $u["member"]==true ? "Member ☑ " : "Not Member ✘ " ; ?><br>
 							<?php echo $u["manager"]==true ? "Manager ☑ " : "Not Manager ✘ " ; ?><br>
 							<?php echo "Weight ".$u["weight"]; ?><br>
-							<?php echo "Objective ".$v["objective"]; ?><br>
+							<strong>
+							<?php echo "Opportunity ".$v["objective"]; ?><br>
 							<?php echo "Type ".$v["type"]; ?><br>
+							</strong>
 						</p>
 					</div>
 				</div>			
