@@ -61,7 +61,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="modal-body">
 	  	<p>
 		  The page is really simple, but thinking in minimalism, I tried to do something related. In fact the only page could be this one.
-			Now in the process, I found some weird responses from the api and from the webpage, just an example: <a href="https://torre.co/home" target="_blank">https://torre.co/home</a> some pages redirect to that inexisting address.
+			Now in the process, I found some weird responses from the api and from the webpage, 
+			just an example: <a href="https://torre.co/en/jobs/post?_ga=2.51997417.1569924962.1613463460-1683523023.1592908821" target="_blank">click on Request Feature, then click on Post a Job</a> some pages redirect to that inexisting address.
 			<br>
 			Thank you and I will be waiting for my results.
 			<br><br>
